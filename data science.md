@@ -198,11 +198,11 @@ Statistic method > Mean, median(centre value), mode(repeated values)
 
 
 
-    |                /
+  |                /
 
-    |              /
+  |              /
 
-    |            /
+  |            /
 
 10|           |
 
@@ -212,7 +212,7 @@ Statistic method > Mean, median(centre value), mode(repeated values)
 
 2  |  /    |/
 
-0  |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+0  |_____________________
 
 
 
@@ -268,5 +268,5 @@ IDE (Integrator Development Environment)
 
 
 
-\[Eg. consider a baby, problem would be help the child to learn things, collecting pics, real apple, 2nd step  clear the damaged one for good learning 3rd one and name it with some variables in our case it would be "APPLE" will be 4th step, 5th step selecting the baby to be learned(trained), next teaching(training) 6th step, testing the baby for memory 7th step, 8th step Allow the baby to wander over environments and finally  check whether the child could find the apple in the environment.]
+[Eg. consider a baby, problem would be help the child to learn things, collecting pics, real apple, 2nd step  clear the damaged one for good learning 3rd one and name it with some variables in our case it would be "APPLE" will be 4th step, 5th step selecting the baby to be learned(trained), next teaching(training) 6th step, testing the baby for memory 7th step, 8th step Allow the baby to wander over environments and finally  check whether the child could find the apple in the environment.]
 
