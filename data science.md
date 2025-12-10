@@ -212,7 +212,7 @@ Statistic method > Mean, median(centre value), mode(repeated values)
 
 2  |  /    |/
 
-0  |_____________________
+0  |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -254,7 +254,7 @@ IDE (Integrator Development Environment)
 
 
 
-**STEPS INVOLVED IN MODEL BUILDING**
+**STEPS INVOLVED IN MODEL BUILDING (machine learning model work flow)**
 
 1. Problem definition -> Explain the problem
 2. Data collection -> collecting data required for the solution
@@ -268,5 +268,235 @@ IDE (Integrator Development Environment)
 
 
 
-[Eg. consider a baby, problem would be help the child to learn things, collecting pics, real apple, 2nd step  clear the damaged one for good learning 3rd one and name it with some variables in our case it would be "APPLE" will be 4th step, 5th step selecting the baby to be learned(trained), next teaching(training) 6th step, testing the baby for memory 7th step, 8th step Allow the baby to wander over environments and finally  check whether the child could find the apple in the environment.]
+
+
+\[Eg. Training a model is consider as a baby, problem would be help the child to learn things, collecting pics, real apple, 2nd step  clear the damaged one for good learning 3rd one and name it with some variables in our case it would be "APPLE" will be 4th step, 5th step selecting the baby to be learned(trained), next teaching(training) 6th step, testing the baby for memory 7th step, 8th step Allow the baby to wander over environments and finally  check whether the child could find the apple in the environment.]
+
+
+
+Day-3
+
+Discussion about the steps 5,6,7 deeply
+
+Machine Learning Models
+
+1. Regression
+
+          1.    Linear
+
+          2.   Logistic
+
+2\.   Classification
+
+          1.  Binary Classification
+
+          2.  Tree Based classification
+
+
+
+REGRESSION
+
+Regression defined as the models that predicts continuous numeric outcomes by learning relationship between the input features and output.
+
+ It is continuous predictions
+
+|               /
+
+|\_\_ \_\_  /
+
+|         /|
+
+|      /   |
+
+|   /      |
+
+|/\_\_\_\_|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+*y=mx+c*
+
+*y=logx+x*  where m, log are slope
+
+
+
+Measurable quantity:
+
+* Time
+* Weight
+* Money
+
+
+
+For eg. Let us consider Dominos they have been started the business at 2020 if their profit at 2021 is 100k then 2022 is 200k ,2023 is 300k like this progressively increasing models will be trained to understand the logic behind the growth it should make algorithmic logic to find next year's(i.e 2024) profit.
+
+
+
+Regression types:
+
+1. Linear Regression
+
+                                           y=B0+B1X1+BnXn    where B = beta
+
+2\.  Ridge Regression \[L2] -> regularization
+
+                                           Loss = summation(y-y^2)+lambda(summation(B^2))
+
+3\.  Lasso Regression \[L1] -> regularization
+
+                                           Loss =  summation(y-y^2)+lambda(summation(Modulus(B))
+
+
+
+Decision Tree in Classification Models
+
+   A key structure model splitting data into subsets based on conditions are variables
+
+Random forest classifier -> Multiple decision tree( in which different decision tree are trained) are grouped together called ensemble
+
+
+
+**ARTIFICIAL INTELLIGENCE:**
+
+  Man-made thinking power
+
+  If we write a program it will take a certain input and give output and then program ends. but artificial intelligence make outputs for infinite set of inputs
+
+**MACHINE LEARNING:**
+
+making the machine to learn the certain patterns
+
+**DATA SCIENCE:**
+
+It is a multi-disciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
+
+
+
+Combination of AI,ML,DS id DL (Deep Learning)
+
+
+
+**DEEP LEARNING:**
+
+ Deep Learning is a specialized subset of Machine Learning that utilizes Deep Neural Networks to solve complex problems, especially those involving unstructured data (images, text, audio)
+
+
+
+**NEURAL NETWORK:**
+
+A Neural Network ( Artificial Neural Network or ANN) is a computational model inspired by the structure and function of the human brain. It is an algorithm composed of interconnected nodes (called artificial neurons) arranged in layers.
+
+  i. Neuron
+
+       A Neuron is the fundamental computational unit within a neural network. It's often called a node or perceptron.
+
+ ii. Hidden layer
+
+      A Hidden Layer is any layer of neurons in an ANN that is neither the input layer (where the data enters) nor the output layer (where the prediction exits).
+
+ iii. Backtracking Layer
+
+      Backpropagation is the mathematical method a neural network uses to distribute the error it made on a prediction back across all of its internal connections (weights) so it knows exactly how to adjust itself to perform better next time.
+
+
+
+
+
+**MODEL BUILDING**
+
+*Two libraries SK-Learn (or SciKit Learn) and Tensor Flow \[contains classifier and regression models]*
+
+Data can be given in the form of csv, image which is divided as per rule division:
+
+70%- 30%   where, 70 - Training, 30 - Testing
+
+80% - 20%  where, 80 - Training, 20 - Testing
+
+using the libraries we could separate model
+
+     X           Y
+
+x\_train   y\_train
+
+x\_test    y\_test
+
+Using oops concept
+
+model is called using object
+
+For eg. model = Random Forest()
+
+            model.train
+
+            model.fit
+
+
+
+**LIBRARIES:**
+
+1. numpy for *numerical data*
+2. pandas for *tabulation*
+3. matplotlib.pyplot for *Basic plotting, Customization, Multiple plot types - Supports 2D plots, 3D plots, Figure management - Organize multiple plots in subplots and figures, Output formats - Save plots as PNG, PDF, SVG, and other formats, Low-level control - Fine-grained control over every aspect of a plot*
+4. seaborn for *Statistical visualization - Easily create plots that show statistical relationships in data*
+5. 
+
+*Enhanced aesthetics - Provides beautiful, publication-ready plots with better default styling than matplotlib*
+
+*Simplified syntax - Makes complex visualizations easier to create with fewer lines of code*
+
+*Data exploration - Great for exploratory data analysis (EDA) with functions like:*
+
+*sns.heatmap() - correlation matrices*
+
+*sns.boxplot() - distribution comparisons*
+
+*sns.scatterplot() - relationships between variables*
+
+*sns.histplot() - distributions*
+
+*sns.barplot() - categorical data*
+
+4\.	import warnings for *rectify temporal warnings from OS*
+
+
+
+raw-data -> load using pandas which is concatenation occurs using concat
+
+data.describe().T -> for describing the numerical values
+
+
+
+Environment - space for the project to develop
+
+Virtual Environment is created for particular project to have everything that required to develop the project
+
+GIT:
+
+  Version control system used for managing versions of the software or code
+
+          --> GIT CL1   -->GIT Bash
+
+
+
+Basic commands
+
+--> Push
+
+--> Commit
+
+--> Pull
+
+--> Blame
+
+
+
+    Tree structure that stores the code of the software
+
+
+
+ Origin/main
+
+   |\_B1
+
+   |\_ B2
 
