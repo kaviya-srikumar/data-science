@@ -1,0 +1,41 @@
+#Python  ignoring unwanted files and directories
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+#VS code
+.vscode/
+.history/
+#Python  ignoring unwanted files and directories
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+#VS code
+.vscode/
+.history/
+
+#Environment & Secrets
+*.env
+*.env.local
+*env.production
+
+#ML/Data Science
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.pickle
+*.pkl
+*.joblib
+logs/
+runs/
+data/
+datasets/
+
