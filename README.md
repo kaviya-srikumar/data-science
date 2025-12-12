@@ -1,1 +1,1 @@
-If you want to see my sql works in online click the link "https://sqliteonline.com/"
+My 5 days works on data science
