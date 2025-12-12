@@ -478,6 +478,17 @@ GIT:
 
 
 
+*  Git is a tree like structure. It runs locally on computer, helps to track changes in source code and works offline.
+
+ It also helps developers to collaborate with different versions of files.
+
+* If someone commits the other person's error code then he/she would admit the blame
+* GitHub helps in cloud-based hosting service for git repositories. Works on the internet and allow collaboration with people across the world. It is an application for educational purpose not everybody use it for their own job works
+
+In simple words, GitHub where we stores and shares git repositories
+
+
+
 Basic commands
 
 --> Push
@@ -494,9 +505,46 @@ Basic commands
 
 
 
+
+
  Origin/main
 
    |\_B1
 
    |\_ B2
+
+
+
+**DATA VISUALIZATION**
+
+Representation of processed and cleaned data in a graphical or pictorial representation
+
+
+
+**POWER BI**
+
+  power BI is used for visualization and report
+
+
+
+**SQL(*Structured Query Language*)**
+
+**two types**
+
+&nbsp;    /\\
+   /    \\
+
+DDL  DML
+
+ 
+
+DDL - Data definition Language(to define the data(tables, rows and columns)
+
+DML - Data Manipulation Language(used to change the data)
+
+
+
+--> Primary Key (initialize defined keys(unique))
+
+--> Foreign Key
 
